@@ -1,0 +1,7 @@
+---
+applications:
+- name: env
+  host: env-${random-word}
+  memory: 512m
+  stack: windows
+  buildpack: hwc_buildpack
